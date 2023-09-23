@@ -1,0 +1,43 @@
+
+<html>
+  <head>
+    <title>Aplicación de identificación de sonido</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Are+You+Serious&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+      <center>
+    <div id="Title">    
+        <h1>Identificando el Audio</h1>
+          <div>Nota:Haz diferentes sonidos para poder hacer bailar a los animales</div>
+    </div>      
+          <br>
+          <button id="start" class="btn btn-warning" onclick="startClassification()">Comenzar</button>
+          <h3 id="result_label">Escuchar:</h3>
+          <h4 id="result_confidence">Precisión:</h4>
+          <br>
+          <img src="gato.png" id="gato" width="265" height="310">
+          <img src="perro.png" id="perro" width="265" height="310">
+          <img src="pollo.png" id="pollo" width="265" height="310">
+      </center>
+<script src="main.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+ 
+

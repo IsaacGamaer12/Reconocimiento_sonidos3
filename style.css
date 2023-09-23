@@ -1,0 +1,22 @@
+body{
+    background: linear-gradient(rgb(236, 226, 48), #ccff15, rgb(129, 255, 45)) 
+}
+
+h1{
+    font-family: 'Are You Serious', cursive;
+    color: rgb(48, 113, 255)
+}
+
+h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#Title{
+    background-color: azure;
+}
